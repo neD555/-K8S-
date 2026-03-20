@@ -53,6 +53,16 @@ kubectl exec -it multitool-test -- nslookup nginx-multitool-svc
 
 ### Ответ.
 
+<img width="525" height="268" alt="дз2" src="https://github.com/user-attachments/assets/cbd6ba57-4d59-45d1-b518-4e20d3acf669" />
+<img width="655" height="620" alt="дз2(1)" src="https://github.com/user-attachments/assets/49101826-5dad-4def-8ae5-d1876cf031db" />
+<img width="653" height="1026" alt="дз2(2)" src="https://github.com/user-attachments/assets/713d98f2-0c19-40a4-b29f-d27918ec4901" />
+<img width="656" height="1013" alt="дз2(3)" src="https://github.com/user-attachments/assets/456c0374-9965-44d7-be42-ae1a9ab40aaf" />
+
+
+
+
+
+
 
 
 
