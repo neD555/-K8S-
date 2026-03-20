@@ -57,6 +57,25 @@ kubectl exec -it multitool-test -- nslookup nginx-multitool-svc
 <img width="655" height="620" alt="дз2(1)" src="https://github.com/user-attachments/assets/49101826-5dad-4def-8ae5-d1876cf031db" />
 <img width="653" height="1026" alt="дз2(2)" src="https://github.com/user-attachments/assets/713d98f2-0c19-40a4-b29f-d27918ec4901" />
 <img width="656" height="1013" alt="дз2(3)" src="https://github.com/user-attachments/assets/456c0374-9965-44d7-be42-ae1a9ab40aaf" />
+### Список команд:
+### После создания Deployment, до создания Service.
+kubectl get deployments
+
+kubectl get pods
+### Более подробный вывод pod до создания Service.
+kubectl get pods -o wide
+
+kubectl describe pod nginx-init-75b8896cdb-2bwvs
+### Логи init container, где видно ожидание сервиса.
+kubectl logs nginx-init-75b8896cdb-2bwvs -c wait-for-service
+### После создания Service.
+kubectl get svc
+### Состояние pod после запуска Service.
+kubectl get pods
+
+kubectl get pods -o wide
+
+kubectl describe pod nginx-init-75b8896cdb-2bwvs
 
 
 
