@@ -19,6 +19,40 @@
 <img width="658" height="156" alt="06-curl-multitool" src="https://github.com/user-attachments/assets/d2794b67-f9b4-4732-b7a5-277196ca11e4" />
 <img width="524" height="174" alt="07-nslookup" src="https://github.com/user-attachments/assets/6e35966f-6813-4227-bb97-cd7293558cff" />
 
+### Список команд:
+Deployment создан:
+
+kubectl get deployments
+
+kubectl get pods -o wide
+### До масштабирования.
+kubectl get pods
+### Масштабирование.
+kubectl scale deployment nginx-multitool --replicas=2
+### После масштабирования.
+kubectl get pods
+### Service.
+kubectl get svc
+### Проверка pod multitool-test.
+kubectl get pods
+### curl nginx.
+kubectl exec -it multitool-test -- curl http://nginx-multitool-svc:9001
+### curl multitool.
+kubectl exec -it multitool-test -- curl http://nginx-multitool-svc:9002
+### DNS.
+kubectl exec -it multitool-test -- nslookup nginx-multitool-svc
+
+### Задание 2. Создать Deployment и обеспечить старт основного контейнера при выполнении условий.
+1.Создать Deployment приложения nginx и обеспечить старт контейнера только после того, как будет запущен сервис этого приложения.
+
+2.Убедиться, что nginx не стартует. В качестве Init-контейнера взять busybox.
+
+3.Создать и запустить Service. Убедиться, что Init запустился.
+
+4.Продемонстрировать состояние пода до и после запуска сервиса.
+
+### Ответ.
+
 
 
 
