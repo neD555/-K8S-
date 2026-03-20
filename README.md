@@ -19,6 +19,7 @@
 <img width="658" height="156" alt="06-curl-multitool" src="https://github.com/user-attachments/assets/d2794b67-f9b4-4732-b7a5-277196ca11e4" />
 <img width="524" height="174" alt="07-nslookup" src="https://github.com/user-attachments/assets/6e35966f-6813-4227-bb97-cd7293558cff" />
 
+манифесты
 
 
 
